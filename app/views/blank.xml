@@ -1,0 +1,5 @@
+<Alloy>
+	<View class="container" id="win" role="centerWindow" platform="android">
+		<Label>Hello, I am dog</Label>
+	</View>
+</Alloy>

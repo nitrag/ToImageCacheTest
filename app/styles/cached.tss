@@ -1,0 +1,12 @@
+".container":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: 'vertical'
+}
+".wrapper":{
+	top: 30,
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	backgroundColor: 'yellow'
+}
+

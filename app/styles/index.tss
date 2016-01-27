@@ -1,0 +1,74 @@
+"#drawer[platform=ios]": {
+    openDrawerGestureMode: "OPEN_MODE_NONE",
+    closeDrawerGestureMode: "CLOSE_MODE_NONE",
+    statusBarStyle: "STATUSBAR_WHITE",
+    shouldStretchDrawer: false,
+    leftDrawerWidth: 220, //if you change this you need to modify the #logo / logo-round.png
+    rightDrawerWidth: 220
+},
+"#drawer[platform=android]": {
+    openDrawerGestureMode: "OPEN_MODE_NONE", //"OPEN_MODE_BEZEL_PANNING_CENTERWINDOW",
+    closeDrawerGestureMode: "CLOSE_MODE_NONE", //"CLOSE_MODE_TAP_CENTERWINDOW",
+    shouldStretchDrawer: false,
+    shadowWidth: 20,
+    leftDrawerWidth: 220,
+    rightDrawerWidth: 220,
+    exitOnClose: false,
+    orientationModes: [Titanium.UI.LANDSCAPE_LEFT,Titanium.UI.LANDSCAPE_RIGHT,Titanium.UI.PORTRAIT,Titanium.UI.UPSIDE_PORTRAIT],
+    //drawerLayout: true,
+    //drawerIndicatorEnabled: true,
+    //drawerIndicatorImage: '/images/drawer.png',
+    hamburgerIcon: true,
+    hamburgerIconColor: '#FFF'
+},
+"Window": {
+    backgroundColor: 'white',
+    exitOnClose: false
+},
+".container" : {
+	backgroundColor: "#FFF",
+	height: Titanium.UI.FILL,
+	width: Ti.UI.FILL
+},
+
+"#menuItems[platform=ios]": {
+	top: 205, height: Ti.UI.SIZE, width: Titanium.UI.FILL, layout: "vertical"
+},
+"#menuItems[platform=android]": {
+	top: 190, height: Ti.UI.SIZE, width: Titanium.UI.FILL, layout: "vertical"
+},
+"#bottomItems": {
+	bottom: 0, height: Ti.UI.SIZE, width: Titanium.UI.FILL, layout: "vertical"
+},
+".menuItem": {
+	height: 45,
+	width: Titanium.UI.FILL
+},
+".icon":{
+	left: 13,
+	size: 18,
+	height: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	touchEnabled: false
+},
+".menuLabel":{
+	color: '#000',
+	touchEnabled: false,
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	left: 45
+},
+".split":{
+	width: "100%",
+	height: 1,
+	backgroundColor: '#999',
+	touchEnabled: false
+},
+
+
+".iconWrapper":{
+	left: 10,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}
+

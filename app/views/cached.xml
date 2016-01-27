@@ -1,0 +1,19 @@
+<Alloy>
+	<ScrollView class="container" id="win" role="centerWindow" platform="android">
+		
+		<View class="wrapper">
+			<Label>Image1</Label>
+			<ImageView id="img1"/>
+		</View>
+		
+		<View class="wrapper">
+			<Label>Image2</Label>
+			<ImageView id="img2"/>
+		</View>
+		
+		<View class="wrapper">
+			<Label>Image2</Label>
+			<ImageView id="img3"/>
+		</View>
+	</ScrollView>
+</Alloy>

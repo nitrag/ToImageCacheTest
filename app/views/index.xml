@@ -1,0 +1,23 @@
+<Alloy>
+    <Widget id="drawer" src="nl.fokkezb.drawer">
+        <Window module="xp.ui" class="container" role="leftWindow">
+            <View id="menuItems">
+            	<View class='split' />
+				<View id="cached" class="menuItem" onClick="openView">
+					<View class="iconWrapper"><Label id="mapIcon"/></View>
+					<Label class="menuLabel">Cached Images</Label>
+				</View>
+				
+				<View class='split' />
+				<View id="blank" class="menuItem" onClick="openView">
+					<View class="iconWrapper"><Label id="feedIcon"/></View>
+					<Label class="menuLabel">Other Page</Label>
+				</View>
+			</View>
+        </Window>
+		<View platform="android" role="centerWindow">
+            <Label>I am center</Label>
+        </View>
+		
+    </Widget>
+</Alloy>
